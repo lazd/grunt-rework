@@ -25,7 +25,6 @@ var rework_import = require('rework-import');
 
 grunt.initConfig({
   rework: {
-    'dest/index.css': 'src/index.css',
     options: {
       toString: {compress: true},
       use: [
@@ -39,7 +38,7 @@ grunt.initConfig({
         }
       },
       files: {
-       'dest/index.css': 'src/index.css',
+        'dest/index.css': 'src/index.css',
       }
     }
   }
@@ -73,7 +72,9 @@ Options to pass to rework's `toString` method.
 
 
 ## License
+
 Copyright (c) 2013 Jean-Sébastien Ney
+
 Licensed under the MIT license.
 
 
